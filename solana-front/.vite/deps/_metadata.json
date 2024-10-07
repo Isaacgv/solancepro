@@ -1,0 +1,223 @@
+{
+  "hash": "3195ea2d",
+  "configHash": "4a09ac07",
+  "lockfileHash": "8eb1b963",
+  "browserHash": "3cf17b39",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2e17d914",
+      "needsInterop": true
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "54260b9e",
+      "needsInterop": false
+    },
+    "@tanstack/react-router": {
+      "src": "../../node_modules/@tanstack/react-router/dist/esm/index.js",
+      "file": "@tanstack_react-router.js",
+      "fileHash": "d3488953",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "96fc4d5a",
+      "needsInterop": true
+    },
+    "@solana/wallet-adapter-react": {
+      "src": "../../node_modules/@solana/wallet-adapter-react/lib/esm/index.js",
+      "file": "@solana_wallet-adapter-react.js",
+      "fileHash": "6f8b9ace",
+      "needsInterop": false
+    },
+    "@solana/wallet-adapter-base": {
+      "src": "../../node_modules/@solana/wallet-adapter-base/lib/esm/index.js",
+      "file": "@solana_wallet-adapter-base.js",
+      "fileHash": "e651162b",
+      "needsInterop": false
+    },
+    "@solana/wallet-adapter-wallets": {
+      "src": "../../node_modules/@solana/wallet-adapter-wallets/lib/esm/index.js",
+      "file": "@solana_wallet-adapter-wallets.js",
+      "fileHash": "db4546c3",
+      "needsInterop": false
+    },
+    "@solana/wallet-adapter-react-ui": {
+      "src": "../../node_modules/@solana/wallet-adapter-react-ui/lib/esm/index.js",
+      "file": "@solana_wallet-adapter-react-ui.js",
+      "fileHash": "09101f8d",
+      "needsInterop": false
+    },
+    "@solana/web3.js": {
+      "src": "../../node_modules/@solana/web3.js/lib/index.browser.esm.js",
+      "file": "@solana_web3__js.js",
+      "fileHash": "e82dca98",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "20a1c3e5",
+      "needsInterop": false
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "f5129574",
+      "needsInterop": false
+    },
+    "@coral-xyz/anchor": {
+      "src": "../../node_modules/@coral-xyz/anchor/dist/browser/index.js",
+      "file": "@coral-xyz_anchor.js",
+      "fileHash": "58352a5e",
+      "needsInterop": false
+    },
+    "react-hook-form": {
+      "src": "../../node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "17a47526",
+      "needsInterop": false
+    },
+    "zod": {
+      "src": "../../node_modules/zod/lib/index.mjs",
+      "file": "zod.js",
+      "fileHash": "461a0363",
+      "needsInterop": false
+    },
+    "@hookform/resolvers/zod": {
+      "src": "../../node_modules/@hookform/resolvers/zod/dist/zod.mjs",
+      "file": "@hookform_resolvers_zod.js",
+      "fileHash": "c3a15486",
+      "needsInterop": false
+    },
+    "@radix-ui/react-dialog": {
+      "src": "../../node_modules/@radix-ui/react-dialog/dist/index.mjs",
+      "file": "@radix-ui_react-dialog.js",
+      "fileHash": "e405bc6d",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "1561d3b4",
+      "needsInterop": false
+    },
+    "tailwind-variants": {
+      "src": "../../node_modules/tailwind-variants/dist/index.js",
+      "file": "tailwind-variants.js",
+      "fileHash": "7ad855a7",
+      "needsInterop": false
+    },
+    "@radix-ui/react-radio-group": {
+      "src": "../../node_modules/@radix-ui/react-radio-group/dist/index.mjs",
+      "file": "@radix-ui_react-radio-group.js",
+      "fileHash": "2a599ae4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "esm-K65JDADT": {
+      "file": "esm-K65JDADT.js"
+    },
+    "esm-5WIMLTYZ": {
+      "file": "esm-5WIMLTYZ.js"
+    },
+    "esm-BYOUJ73Z": {
+      "file": "esm-BYOUJ73Z.js"
+    },
+    "solanaEmbed.esm-NMVWX4XE": {
+      "file": "solanaEmbed__esm-NMVWX4XE.js"
+    },
+    "lib-CKDRCM6R": {
+      "file": "lib-CKDRCM6R.js"
+    },
+    "esm-QIYUI4OV": {
+      "file": "esm-QIYUI4OV.js"
+    },
+    "chunk-RRKR2IFR": {
+      "file": "chunk-RRKR2IFR.js"
+    },
+    "chunk-IQPYEVPQ": {
+      "file": "chunk-IQPYEVPQ.js"
+    },
+    "esm-NAVEWF6Z": {
+      "file": "esm-NAVEWF6Z.js"
+    },
+    "dist-VAONGV75": {
+      "file": "dist-VAONGV75.js"
+    },
+    "chunk-RUQRHXOL": {
+      "file": "chunk-RUQRHXOL.js"
+    },
+    "chunk-6UKM4XWC": {
+      "file": "chunk-6UKM4XWC.js"
+    },
+    "chunk-5XNC3COW": {
+      "file": "chunk-5XNC3COW.js"
+    },
+    "TransportWebHID-YYA53NFP": {
+      "file": "TransportWebHID-YYA53NFP.js"
+    },
+    "chunk-MAKA3KFA": {
+      "file": "chunk-MAKA3KFA.js"
+    },
+    "draggabilly-WMSXABBT": {
+      "file": "draggabilly-WMSXABBT.js"
+    },
+    "es-OO5MM5MK": {
+      "file": "es-OO5MM5MK.js"
+    },
+    "chunk-AECE7TE2": {
+      "file": "chunk-AECE7TE2.js"
+    },
+    "chunk-SY35XQIT": {
+      "file": "chunk-SY35XQIT.js"
+    },
+    "chunk-IJ2PVTTA": {
+      "file": "chunk-IJ2PVTTA.js"
+    },
+    "chunk-OIEZYFRY": {
+      "file": "chunk-OIEZYFRY.js"
+    },
+    "chunk-GJP3LH4P": {
+      "file": "chunk-GJP3LH4P.js"
+    },
+    "chunk-3LHYZKWB": {
+      "file": "chunk-3LHYZKWB.js"
+    },
+    "chunk-OFLUJM4P": {
+      "file": "chunk-OFLUJM4P.js"
+    },
+    "chunk-PPA3WXSL": {
+      "file": "chunk-PPA3WXSL.js"
+    },
+    "chunk-YSMMGJ5H": {
+      "file": "chunk-YSMMGJ5H.js"
+    },
+    "chunk-OJK6TXMW": {
+      "file": "chunk-OJK6TXMW.js"
+    },
+    "chunk-UDGG4VFC": {
+      "file": "chunk-UDGG4VFC.js"
+    },
+    "chunk-DYENQPX7": {
+      "file": "chunk-DYENQPX7.js"
+    },
+    "chunk-25BINZ4W": {
+      "file": "chunk-25BINZ4W.js"
+    },
+    "chunk-XWILBTP6": {
+      "file": "chunk-XWILBTP6.js"
+    },
+    "chunk-7MQHQGKA": {
+      "file": "chunk-7MQHQGKA.js"
+    },
+    "chunk-256EKJAK": {
+      "file": "chunk-256EKJAK.js"
+    }
+  }
+}

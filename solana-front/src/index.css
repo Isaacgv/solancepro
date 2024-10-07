@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Logo Movement with 2s pause */
+@keyframes logoMove {
+  0%, 40% {
+    transform: translateX(0); /* Logo centered */
+  }
+  50% {
+    transform: translateX(-100px); /* Logo moves left */
+  }
+  100% {
+    transform: translateX(0); /* Logo returns to center */
+  }
+}
+
+.logo-animation, .animation-container {
+  animation: logoMove 7s infinite ease-in-out;
+}
+
+/* Text Fade-In with 2s pause */
+@keyframes fadeInText {
+  0%, 40% {
+    opacity: 0; /* Text hidden */
+    transform: translateX(-20px); /* Text offscreen */
+  }
+  50%, 80% {
+    opacity: 1; /* Text visible */
+    transform: translateX(0); /* Text in position */
+  }
+  100% {
+    opacity: 1; /* Pause with text visible */
+  }
+}
+
+.text-animation {
+  animation: fadeInText 7s infinite ease-in-out;
+}
+
+/* H2 Fade-In with 2s pause */
+@keyframes fadeInH2 {
+  0%, 60% {
+    opacity: 0; /* H2 hidden */
+  }
+  70%, 100% {
+    opacity: 1; /* H2 visible */
+  }
+}
+
+.h2-animation {
+  animation: fadeInH2 7s infinite ease-in-out;
+  animation-delay: 3s;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
