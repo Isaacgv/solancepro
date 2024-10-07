@@ -1,8 +1,18 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import { TanStackRouterVite } from "@tanstack/router-vite-plugin"
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { Buffer } from 'buffer';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), TanStackRouterVite()],
-})
+  plugins: [react()],
+  define: {
+    global: {},
+  },
+  resolve: {
+    alias: {
+      buffer: 'buffer/',
+    },
+  },
+  optimizeDeps: {
+    include: ['buffer'],
+  }
+});
