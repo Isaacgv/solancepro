@@ -20,7 +20,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const SubmitProjectForm = z.object({
-  description: z.string().min(1, 'Provide the description of the project'),
+  description: z.string().min(1, 'Provide the description of the project').max(700, 'The description must be 700 characters or fewer'),
 })
 
 type SubmitProjectForm = z.infer<typeof SubmitProjectForm>
@@ -122,7 +122,7 @@ export function SendProject( {projectAuthority, projectIdx, proposalIdx}) {
             <div className="flex flex-col gap-6">
                 
                 <div className="flex flex-col gap-2">
-                <Label htmlFor="description">Project description</Label>
+                <Label htmlFor="description">Project description (max 700 characters)</Label>
                 <TextArea
                     id="description"
                     autoFocus

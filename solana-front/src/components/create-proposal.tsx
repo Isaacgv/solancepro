@@ -21,7 +21,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const CreateProposalForm = z.object({
-  description: z.string().min(1, 'Provide the description of the project'),
+  description: z.string().min(1, 'Provide the description of the project').max(700, 'The description must be 700 characters or fewer'),
   budget: z.coerce.number(),
 })
 
@@ -106,7 +106,7 @@ export function CreateProposal( {projectPDA, lastProposal}) {
           <div className="flex flex-col gap-6">
             
             <div className="flex flex-col gap-2">
-              <Label htmlFor="description">Describe the proposal project</Label>
+              <Label htmlFor="description">Describe the proposal project (max 700 characters)</Label>
               <TextArea
                 id="description"
                 autoFocus
