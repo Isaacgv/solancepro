@@ -86,7 +86,7 @@ export function CreateProject() {
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
-              <Label htmlFor="title">Project title</Label>
+              <Label htmlFor="title">Project title (max 96 characters)</Label>
               <Input
                 id="title"
                 autoFocus
@@ -101,7 +101,7 @@ export function CreateProject() {
               )}
             </div>
             <div className="flex flex-col gap-2">
-              <Label htmlFor="description">Describe the project</Label>
+              <Label htmlFor="description">Describe the project (max 700 characters)</Label>
               <TextArea
                 id="description"
                 autoFocus
@@ -117,7 +117,7 @@ export function CreateProject() {
               )}
             </div>
             <div className="flex flex-col gap-2">
-              <Label htmlFor="features">Key Features</Label>
+              <Label htmlFor="features">Key Features (max 700 characters)</Label>
               <TextArea
                 id="features"
                 autoFocus
@@ -132,7 +132,7 @@ export function CreateProject() {
               )}
             </div>
             <div className="flex flex-col gap-2">
-              <Label htmlFor="deliverables">Deliverables</Label>
+              <Label htmlFor="deliverables">Deliverables (max 700 characters)</Label>
               <TextArea
                 id="deliverables"
                 autoFocus
