@@ -6,7 +6,7 @@ pub mod instructions;
 pub mod states;
 use crate::{constant::*, error::*, states::*, instructions::*};
 
-declare_id!("9swtThyEKwAPMyVjBFarWyqw6NML5TMtLHVrd8vfwfwg");
+declare_id!("");
 
 #[program]
 pub mod clever_project {

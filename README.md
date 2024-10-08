@@ -2,7 +2,7 @@
 
 A decentralized platform for hiring freelancers and posting projects, powered by Solana. It leverages blockchain technology to provide fast, secure, and low-cost transactions, enabling seamless payments, project management, and reputation tracking. With smart contract-based escrow, decentralized governance, and cross-border capabilities, the platform ensures a trustless and efficient marketplace for freelancers and clients worldwide.
 
-
+Click on the image to learn how to log in:
 [![Watch the video](https://img.youtube.com/vi/umnZ7k5eLTg/0.jpg)](https://www.youtube.com/watch?v=umnZ7k5eLTg)
 
 

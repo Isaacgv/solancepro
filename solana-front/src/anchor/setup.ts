@@ -6,5 +6,5 @@ import { useAnchorWallet } from '@solana/wallet-adapter-react'
 import { clusterApiUrl, Connection, PublicKey } from '@solana/web3.js'
 
 export const programId = new PublicKey(
-  'CofvNRnetDuFACmNpV7CNLpKHJAtPzbk2f3dY3h7MSuA'
+  ''
 )
