@@ -22,33 +22,33 @@ Before you begin, make sure you have the following installed on your system:
 o it will be installed automatically.
 
 ## Folder project 
-    ```
+    
     cd solana-front
-    ```
+    
 
 ## Add program ID
-    ```
+    
     cd solana-front/src/anchor
-    ```
+    
     
 Inside file: setup.ts
 Add the program ID inside -> 
 
-    ```
+    
     export const programId = new PublicKey(
       ''
     )
-    ```
+    
     
 ## Install dependencies
-    ```
+    
     npm install
-    ```
+    
 
 ## Running the Application
-    ```
+    
     npm run 
-    ```
+    
     
 # Banckend
 
@@ -56,28 +56,28 @@ Add the program ID inside ->
 Install Anchor
 
 ## Folder project
-    ```
+    
     cd solana-plataform
-    ```
+    
 
 ## Install dependencies
-    ```
+    
     npm install --global yarn
-    ```
+    
     
 ## Add program ID
-    ```
+    
     cd solana-plataform/programs/constant/src/
-    ```
+    
     
 Inside file: libs.rs
 Add the program ID inside -> 
 
-    ```
+    
     declare_id!(""); 
-    ```
+    
 
 ## Run client
-    ```
+    
     anchor run client
-    ```
+    
