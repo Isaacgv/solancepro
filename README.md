@@ -24,6 +24,19 @@ o it will be installed automatically.
 ```
     cd solana-front
 ```
+
+## Add program ID
+```
+    cd solana-front/src/anchor
+```
+    Inside file: setup.ts
+    Add the program ID inside -> 
+    ```
+    export const programId = new PublicKey(
+      ''
+    )
+    ```
+    
 ## Install dependencies
 ```
     npm install
@@ -48,11 +61,19 @@ Install Anchor
 ```
     npm install --global yarn
 ```
-
-## Build
+## Install dependencies
 ```
-    anchor build
+    npm install --global yarn
 ```
+## Add program ID
+```
+    cd solana-plataform/programs/constant/src/
+```
+    Inside file: libs.rs
+    Add the program ID inside -> 
+    ```
+    declare_id!(""); 
+    ```
 
 ## Run client
 ```
