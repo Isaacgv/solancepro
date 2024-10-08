@@ -123,7 +123,7 @@ export function VisualizeProject( {project}: VizualizeProjectForm) {
                   <span className="text-zinc-300 text-sm font-medium leading-none">
                     {budgetList[project.budget]}
                   </span>
-                  <span className="text-lg leading-none">{budgetIcons[project.budget]}</span>
+                  <span className="text-lg leading-none">{budgetIcons[project.budget - 1]}</span>
                 </RadioGroupItem>
               </RadioGroup>
             </div>

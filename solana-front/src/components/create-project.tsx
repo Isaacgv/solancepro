@@ -22,10 +22,10 @@ import { TextArea } from './ui/text-area'
 import { useProjects } from '../hooks/platform'
 
 const CreateProjectForm = z.object({
-  title: z.string().min(1, 'Provide the project title'),
-  description: z.string().min(1, 'Provide the description of the project'),
-  features: z.string().min(1, 'Provide the key features of the project'),
-  deliverables: z.string().min(1, 'Provide the deliverables of the project'),
+  title: z.string().min(1, 'Provide the project title').max(96, 'The title must be 96 characters or fewer'),
+  description: z.string().min(1, 'Provide the description of the project').max(700, 'The description must be 700 characters or fewer'),
+  features: z.string().min(1, 'Provide the key features of the project').max(700, 'The key features must be 700 characters or fewer'),
+  deliverables: z.string().min(1, 'Provide the deliverables of the project').max(700, 'The deliverables must be 700 characters or fewer'),
   desiredBudget: z.coerce.number().min(1).max(7),
 })
 
