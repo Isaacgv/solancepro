@@ -1,8 +1,12 @@
 # SolancePro
 
-A decentralized, transparent, and efficient solution for hiring and working in the freelance economy
+A decentralized, transparent, and efficient solution for hiring and working in the freelance economy.
 
 [![Watch the video](https://img.youtube.com/vi/umnZ7k5eLTg/0.jpg)](https://www.youtube.com/watch?v=umnZ7k5eLTg)
+
+
+Try the app with Solana Wallet Devnet: https://solance.netlify.app
+
 
 # React Web Application
 
