@@ -2,7 +2,7 @@
 
 A decentralized, transparent, and efficient solution for hiring and working in the freelance economy
 
-[![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://www.youtube.com/watch?v=umnZ7k5eLTg)
+[![Watch the video](https://img.youtube.com/vi/umnZ7k5eLTg/0.jpg)](https://www.youtube.com/watch?v=umnZ7k5eLTg)
 
 # React Web Application
 
