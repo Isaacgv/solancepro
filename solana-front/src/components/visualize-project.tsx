@@ -121,7 +121,7 @@ export function VisualizeProject( {project}: VizualizeProjectForm) {
               <RadioGroupItem value="1">
                 <RadioGroupIndicator />
                   <span className="text-zinc-300 text-sm font-medium leading-none">
-                    {budgetList[project.budget]}
+                    {budgetList[project.budget - 1]}
                   </span>
                   <span className="text-lg leading-none">{budgetIcons[project.budget - 1]}</span>
                 </RadioGroupItem>
