@@ -50,7 +50,7 @@ Add the program ID inside ->
     npm run 
     
     
-# Banckend
+# Backend
 
 ## Install tools
 Install Anchor
